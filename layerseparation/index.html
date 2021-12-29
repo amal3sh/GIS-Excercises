@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="https://openlayers.org/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using OpenLayers with Vite</title>
+  </head>
+  <body>
+    <div id="map"></div>
+   
+      <select id = "type">
+      
+      
+        <option value="Point">Point</option>
+  
+        <option value="Polygon">Polygon</option>
+        <option value="Circle">Circle</option>
+     
+      </select>
+      <br>
+
+      <label>Point Layer</label>
+      <input type = "checkbox" id="pointBox" checked><br>
+
+      <label>Circle Layer</label>
+      <input type = "checkbox" id ="circleBox" checked><br>
+      <label>Polygon Layer</label>
+      <input type = "checkbox" id ="polygonBox" checked>
+    
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
